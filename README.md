@@ -35,6 +35,7 @@ This project supports multiple audio formats and integrates modern speech techno
 ## 1️⃣ Clone the Repository
 
 bash
+
 git clone https://github.com/Hectronix-Secura/speech_project.git
 
 cd speech_project
@@ -42,6 +43,7 @@ cd speech_project
 ## 2️⃣ Install System Dependencies
 
 bash
+
 sudo apt update
 
 sudo apt install ffmpeg python3-venv -y
@@ -50,6 +52,7 @@ sudo apt install ffmpeg python3-venv -y
 ## 3️⃣ Create Virtual Environment
 
 bash
+
 python3 -m venv venv
 
 source venv/bin/activate
@@ -58,6 +61,7 @@ source venv/bin/activate
 ## 4️⃣ Install Python Dependencies
 
 bash
+
 pip install -r requirements.txt
 
 
@@ -66,13 +70,14 @@ pip install -r requirements.txt
 Run the project with:
 
 bash
+
 python3 speech.py
 
 
 # 📂 Project Structure
 
 speech_project/
-│
+
 ├── speech.py
 ├── requirements.txt
 ├── README.md
